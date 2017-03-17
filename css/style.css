@@ -1,0 +1,82 @@
+body {
+  padding-top: 50px;
+}
+
+.jumbotron{
+	background: url(../img/orange-flower.jpg) no-repeat top center !important;
+	color:#F6714D;
+	height: 670px;
+	overflow:none;
+    margin-top: auto;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.pull-down  {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+h1{
+    font-size: 72px;
+    text-shadow: 4px 4px 4px #aaa;
+    color: #F6714D;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+}
+
+div#story {
+    margin-top: 30px;
+}
+
+div#story p{
+    color: 353229;
+    text-align: justify;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    margin: 0 100px 0 100px;
+}
+
+div#story img{
+    float: right;
+}
+
+.spacer {
+    margin: 100px;
+}
+
+#map-container {
+    margin-left: 100px;
+    height: 500px;
+    width: 500px;
+}
+
+.address {
+    color: 353229;
+    text-align: justify;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    margin-right: 100px;
+    float: right;
+}
+
+footer {
+    padding: 20px 0 15px 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+footer li{
+    float: left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+}
+
+footer p{
+    float: right;
+}
+
+footer a{
+    color: #000;
+}
